@@ -8,6 +8,12 @@ typedef enum {
   LUMINOSITY
 } Mode;
 
+// assign value to my own data type using enumerator
+typedef enum {
+  NO_ERROR = 0,
+  ERROR_PRESENT,
+}Error;
+
 #endif /* MODE_H */
 
 /**
