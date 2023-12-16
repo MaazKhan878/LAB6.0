@@ -22,7 +22,7 @@ Error toGrayScale(int *r, int *g, int *b, Mode mode) {
   }
   //FOR LIGHTNESS TECHNIQUE
   else if (mode == LIGHTNESS) {
-    *r = *g = *b = (max(*r, *g, *b) + min(*r, *g, *b));
+    *r = *g = *b = (max(*r, *g, *b) + min(*r, *g, *b))/2;
   } 
   //FOR LUMINOSITY TECHNIQUE
   else if (mode == LUMINOSITY) {
